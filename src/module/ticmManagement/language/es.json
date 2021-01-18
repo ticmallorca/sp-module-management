@@ -1,0 +1,71 @@
+{
+	"module": "escritorio",
+	"author": {
+		"author": "Alejandro Villén Hernández",
+		"git": "https://gitlab.com/alejandrovildez"
+	},
+	"contributors": [{
+		"author": "Alejandro Villén Hernández",
+		"git": "https://gitlab.com/alejandrovildez"
+	}],
+	"version": "v1.0.0",
+	"sidebar_title": "Configuraciones",
+	"sidebar_entities": "Entidades",
+	"sidebar_users": "Usuarios",
+
+	"entities_panel_tableTitle": "Tabla de entidades",
+	"entities_panel_tableDescription": "Descripción de la función de la tabla",
+	"entities_panel_tableColumnAction": "Acción",
+	"entities_panel_tableColumnId": "Id",
+	"entities_panel_tableColumnImage": "Imagen",
+	"entities_panel_tableColumnName": "Nombre",
+	"entities_panel_tableColumnPhone": "Teléfono",
+	"entities_panel_tableColumnRss": "Feed RSS",
+	"entities_panel_tableColumnNews": "Notícias",
+	"entities_panel_tableColumnDescription": "Descripción",
+	"entities_panel_tableColumnStatus": "Estado",
+
+	"entities_panel_modal_warning": "Los datos modificados en los siguientes formularios serán almacenados automáticamente.",
+	"entities_panel_modal_tab_entity": "Entidad",
+	"entities_panel_modal_tab_modules": "Módulos",
+	"entities_panel_modal_tab_entity_label_name": "Nombre",
+	"entities_panel_modal_tab_entity_label_name_placeholder": "Introduce un nombre",
+	"entities_panel_modal_tab_entity_label_phone": "Teléfono",
+	"entities_panel_modal_tab_entity_label_phone_placeholder": "Introduce un teléfono",
+	"entities_panel_modal_tab_entity_label_news": "Link notícias",
+	"entities_panel_modal_tab_entity_label_news_placeholder": "Introduce un link de notícias",
+	"entities_panel_modal_tab_entity_label_rss": "Feed RSS",
+	"entities_panel_modal_tab_entity_label_rss_placeholder": "Introduce un link de feed rss",
+	"entities_panel_modal_tab_entity_label_description": "Descripción",
+	"entities_panel_modal_tab_entity_label_description_placeholder": "Introduce una descripción",
+
+
+	"users_panel_tableTitle": "Tabla de usuarios",
+	"users_panel_tableDescription": "El siguiente listado muesta los usuarios que tienen el atributo rol-service-panel-usuaris.",
+	"users_panel_tableColumnAction": "Acción",
+	"users_panel_tableColumnId": "Id",
+	"users_panel_tableColumnName": "Nombre",
+	"users_panel_tableColumnSurname": "Apellidos",
+	"users_panel_tableColumnDescription": "Descripción",
+	"users_panel_tableColumnEmail": "Email",
+	"users_panel_tableColumnEntities": "Entidades",
+	"users_panel_tableColumnCreated": "Creado",
+	"users_panel_tableColumnUpdated": "Actualizado",
+	"users_panel_tableColumnStatus": "Estado",
+
+	"users_panel_modal_warning": "Los datos modificados en los siguientes formularios serán almacenados automáticamente.",
+	"users_panel_modal_tab_user": "Usuario",
+	"users_panel_modal_tab_entities": "Entidades",
+	"users_panel_modal_tab_modules": "Módulos",
+	"users_panel_modal_tab_user_title": "Título",
+	"users_panel_modal_tab_user_label_name": "Nombre",
+	"users_panel_modal_tab_user_label_surname": "Apellidos",
+	"users_panel_modal_tab_user_label_email": "Correo Electrónico",
+	"users_panel_modal_tab_user_label_status": "Estado",
+	"users_panel_modal_tab_user_label_created": "Creado",
+	"users_panel_modal_tab_user_label_updated": "Actualizado",
+	"users_panel_modal_tab_user_status_action": "Activar/Desactivar al usuario",
+
+
+	"users_panel_modalEditUser_button_close": "Cerrar"
+}

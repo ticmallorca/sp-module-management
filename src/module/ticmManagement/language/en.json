@@ -1,0 +1,71 @@
+{
+	"module": "dashboard",
+	"author": {
+		"author": "Alejandro Villén Hernández",
+		"git": "https://gitlab.com/alejandrovildez"
+	},
+	"contributors": [{
+		"author": "Alejandro Villén Hernández",
+		"git": "https://gitlab.com/alejandrovildez"
+	}],
+	"version": "v1.0.0",
+	"sidebar_title": "Settigns",
+	"sidebar_entities": "Entities",
+	"sidebar_users": "Users",
+
+	"entities_panel_tableTitle": "Entity's table",
+	"entities_panel_tableDescription": "Description of ...",
+	"entities_panel_tableColumnAction": "Action",
+	"entities_panel_tableColumnId": "Id",
+	"entities_panel_tableColumnImage": "Image",
+	"entities_panel_tableColumnName": "Nane",
+	"entities_panel_tableColumnPhone": "Phone",
+	"entities_panel_tableColumnRss": "Feed RSS",
+	"entities_panel_tableColumnNews": "News",
+	"entities_panel_tableColumnDescription": "Description",
+	"entities_panel_tableColumnStatus": "Status",
+
+	"entities_panel_modal_warning": "All modified data in the fields will be saved automatically.",
+	"entities_panel_modal_tab_entity": "Entity",
+	"entities_panel_modal_tab_modules": "Modules",
+	"entities_panel_modal_tab_entity_label_name": "Name",
+	"entities_panel_modal_tab_entity_label_name_placeholder": "Insert a name",
+	"entities_panel_modal_tab_entity_label_phone": "Phone",
+	"entities_panel_modal_tab_entity_label_phone_placeholder": "Insert a phone number",
+	"entities_panel_modal_tab_entity_label_news": "News link",
+	"entities_panel_modal_tab_entity_label_news_placeholder": "Insert a news link",
+	"entities_panel_modal_tab_entity_label_rss": "Feed RSS",
+	"entities_panel_modal_tab_entity_label_rss_placeholder": "Insert a feed rss",
+	"entities_panel_modal_tab_entity_label_description": "Description",
+	"entities_panel_modal_tab_entity_label_description_placeholder": "Insert a description",
+
+
+	"users_panel_tableTitle": "User's table",
+	"users_panel_tableDescription": "Next list shows the users that have the attribute rol-service-panel-usuaris.",
+	"users_panel_tableColumnAction": "Action",
+	"users_panel_tableColumnId": "Id",
+	"users_panel_tableColumnName": "Name",
+	"users_panel_tableColumnSurname": "Surname",
+	"users_panel_tableColumnDescription": "Description",
+	"users_panel_tableColumnEmail": "Email",
+	"users_panel_tableColumnEntities": "Entities",
+	"users_panel_tableColumnCreated": "Created",
+	"users_panel_tableColumnUpdated": "Updated",
+	"users_panel_tableColumnStatus": "Status",
+
+	"users_panel_modal_warning": "All modified data in the fields will be saved automatically.",
+	"users_panel_modal_tab_user": "User",
+	"users_panel_modal_tab_entities": "Entities",
+	"users_panel_modal_tab_modules": "Modules",
+	"users_panel_modal_tab_user_title": "Title",
+	"users_panel_modal_tab_user_label_name": "Name",
+	"users_panel_modal_tab_user_label_surname": "Surname",
+	"users_panel_modal_tab_user_label_email": "Email",
+	"users_panel_modal_tab_user_label_status": "Status",
+	"users_panel_modal_tab_user_label_created": "Created",
+	"users_panel_modal_tab_user_label_updated": "Updated",
+	"users_panel_modal_tab_user_status_action": "Active or not an user",
+
+
+	"users_panel_modalEditUser_button_close": "Close"
+}

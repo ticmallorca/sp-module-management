@@ -1,0 +1,65 @@
+{
+	"name": "ticmManagement",
+	"version": "1.0.0",
+	"link": "/ticmManagement",
+	"settings": {},
+	"language": {
+		"en": {},
+		"ca": {},
+		"es": {}
+	},
+	"component": {
+		"sideBar": {
+			"name": "sideBar",
+			"dependencies": {
+				"css": [],
+				"javascript": []
+			}
+		},
+		"users": {
+			"name": "users",
+			"link": "/users",
+			"dependencies": {
+				"css": [],
+				"javascript": [
+					"/module/ticmManagement/js/users/controller.js",
+					"/module/ticmManagement/js/users/view.js",
+					"/module/ticmManagement/js/users/users.js"
+				]
+			}
+		},
+		"entities": {
+			"name": "entities",
+			"link": "/entities",
+			"dependencies": {
+				"css": [],
+				"javascript": [
+					"/module/ticmManagement/js/entities/controller.js",
+					"/module/ticmManagement/js/entities/view.js",
+					"/module/ticmManagement/js/entities/entities.js"
+				]
+			}
+		}
+	},
+	"dependencies": {
+		"css": [],
+		"javascript": [
+			"/resources/js/plugins/tables/datatables/datatables.min.js",
+			"/resources/js/plugins/tables/datatables/extensions/buttons.min.js",
+			"/resources/js/plugins/tables/datatables/extensions/responsive.min.js",
+			"/resources/js/plugins/notifications/bootbox.min.js",
+			"/resources/js/plugins/forms/selects/select2.min.js",
+			"/resources/js/plugins/forms/inputs/duallistbox/duallistbox.min.js",
+			"/resources/js/plugins/media/fancybox.min.js",
+			"/resources/js/plugins/forms/styling/uniform.min.js",
+			"/resources/js/plugins/notifications/sweet_alert.min.js",
+			"/js/tools/moment/moment.min.js",
+			"/js/tools/moment/moment-with-locales.min.js",
+			"/js/tools/moment/moment-locale-es.js",
+
+			"/module/ticmManagement/js/controller.js",
+			"/module/ticmManagement/js/core.js"
+
+		]
+	}
+}

@@ -1,0 +1,139 @@
+<div class="content">
+	<div class="card">
+		<div class="card-header header-elements-inline">
+			<h5 class="card-title"><%= module.ticmManagement.language[page.lang].users_panel_tableTitle%></h5>
+			<div class="header-elements">
+				<div class="list-icons">
+					<a class="list-icons-item" data-action="collapse"></a>
+				</div>
+			</div>
+		</div>
+		<div class="card-body">
+			<%= module.ticmManagement.language[page.lang].users_panel_tableDescription%>
+		</div>
+		<div id="dataTableContent">
+			<table class="table datatable-basic table-striped">
+				<thead>
+					<tr>
+						<th><%= module.ticmManagement.language[page.lang].users_panel_tableColumnAction%></th>
+						<th><%= module.ticmManagement.language[page.lang].users_panel_tableColumnId%></th>
+						<th><%= module.ticmManagement.language[page.lang].users_panel_tableColumnName%></th>
+						<th><%= module.ticmManagement.language[page.lang].users_panel_tableColumnSurname%></th>
+						<th><%= module.ticmManagement.language[page.lang].users_panel_tableColumnEmail%></th>
+						<th><%= module.ticmManagement.language[page.lang].users_panel_tableColumnEntities%></th>
+						<th><%= module.ticmManagement.language[page.lang].users_panel_tableColumnStatus%></th>
+						<th><%= module.ticmManagement.language[page.lang].users_panel_tableColumnCreated%></th>
+						<th><%= module.ticmManagement.language[page.lang].users_panel_tableColumnUpdated%></th>
+					</tr>
+				</thead>
+				<tbody>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>
+
+
+<div id="modalEditUser" class="modal fade" tabindex="1">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div id="modalHeader" class="modal-header bg-primary">
+				<h6 id="modalTitle" class="modal-title"></h6>
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+			</div>
+			<div class="modal-body">
+				<div
+					class="alert alert-info alert-dismissible alert-styled-left border-top-0 border-bottom-0 border-right-0">
+					<%= module.ticmManagement.language[page.lang].users_panel_modal_warning%>
+					<button type="button" class="close" data-dismiss="alert">×</button>
+				</div>
+				<ul class="nav nav-tabs nav-tabs-solid nav-justified border-0">
+					<li class="nav-item"><a href="#tabUser" class="nav-link active" data-toggle="tab"><i
+								class="icon-user mr-2"></i><%= module.ticmManagement.language[page.lang].users_panel_modal_tab_user%></a>
+					</li>
+					<li class="nav-item"><a href="#tabEntities" class="nav-link" data-toggle="tab"><i
+								class="icon- mr-2"></i><%= module.ticmManagement.language[page.lang].users_panel_modal_tab_entities%></a>
+					</li>
+					<li class="nav-item"><a href="#tabModules" class="nav-link" data-toggle="tab"><i
+								class="icon-puzzle mr-2"></i><%= module.ticmManagement.language[page.lang].users_panel_modal_tab_modules%></a>
+					</li>
+				</ul>
+
+				<div class="tab-content">
+					<div class="tab-pane fade show active" id="tabUser">
+
+						<label><%= module.ticmManagement.language[page.lang].users_panel_modal_tab_user_label_name%></label>
+						<div class="input-group">
+							<span class="input-group-prepend">
+								<span class="input-group-text"><i class="icon-user"></i></span>
+							</span>
+							<input id="inputUserName" type="text" class="form-control" readonly value="">
+						</div>
+						<br>
+
+						<label><%= module.ticmManagement.language[page.lang].users_panel_modal_tab_user_label_surname%></label>
+						<div class="input-group">
+							<span class="input-group-prepend">
+								<span class="input-group-text"><i class="icon-user"></i></span>
+							</span>
+							<input id="inputUserSurname" type="text" class="form-control" readonly value="">
+						</div>
+						<br>
+
+						<label><%= module.ticmManagement.language[page.lang].users_panel_modal_tab_user_label_email%></label>
+						<div class="input-group">
+							<span class="input-group-prepend">
+								<span class="input-group-text"><i class="icon-user"></i></span>
+							</span>
+							<input id="inputUserMail" type="text" class="form-control" readonly value="">
+						</div>
+						<br>
+
+						<div class="row">
+							<div class="col-md-6">
+								<div class="form-group">
+									<label><%= module.ticmManagement.language[page.lang].users_panel_modal_tab_user_label_created%></label>
+									<input id="inputUserCreated" type="datetime-local" class="form-control" readonly
+										placeholder="col-md-6">
+								</div>
+							</div>
+
+							<div class="col-md-6">
+								<div class="form-group">
+									<label><%= module.ticmManagement.language[page.lang].users_panel_modal_tab_user_label_updated%></label>
+									<input id="inputUserUpdated" type="datetime-local" class="form-control" readonly
+										placeholder="col-md-6">
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="tab-pane fade" id="tabEntities">
+						<select multiple="multiple" class="form-control listbox-entity" data-fouc>
+						</select>
+					</div>
+
+					<div class="tab-pane fade" id="tabModules">
+						<div class="form-group">
+							<label>Elige una entidad para modificar los módulos</label>
+							<select class="form-control select-entity-module" data-fouc> </select>
+
+						</div>
+						<select id="selectListBoxModules" multiple="multiple" class="form-control listbox-module"
+							data-fouc>
+							<% var modules = module.ticmManagement.settings.module%>
+							<% for(var i in modules) {%>
+							<option value="<%= modules[i].id%>"><%= modules[i].name%></option>
+							<% } %>
+						</select>
+					</div>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" data-dismiss="modal"
+					class="btn bg-primary"><%= module.ticmManagement.language[page.lang].users_panel_modalEditUser_button_close%></button>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- /default modal -->

@@ -1,0 +1,71 @@
+{
+	"module": "escriptori",
+	"author": {
+		"author": "Alejandro Villén Hernández",
+		"git": "https://gitlab.com/alejandrovildez"
+	},
+	"contributors": [{
+		"author": "Alejandro Villén Hernández",
+		"git": "https://gitlab.com/alejandrovildez"
+	}],
+	"version": "v1.0.0",
+	"sidebar_title": "Configuracions",
+	"sidebar_entities": "Entitats",
+	"sidebar_users": "Usuaris",
+
+	"entities_panel_tableTitle": "Taula d'entitats",
+	"entities_panel_tableDescription": "Descripció de la funció de la taula",
+	"entities_panel_tableColumnAction": "Acció",
+	"entities_panel_tableColumnId": "ID",
+	"entities_panel_tableColumnImage": "Imatge",
+	"entities_panel_tableColumnName": "Nom",
+	"entities_panel_tableColumnPhone": "Telèfon",
+	"entities_panel_tableColumnRss": "Feed RSS",
+	"entities_panel_tableColumnNews": "Notícies",
+	"entities_panel_tableColumnDescription": "Descripció",
+	"entities_panel_tableColumnStatus": "Estat",
+
+	"entities_panel_modal_warning": "Les dades modificades als formularis següents seran emmagatzemades automàticament.",
+	"entities_panel_modal_tab_entity": "Entitat",
+	"entities_panel_modal_tab_modules": "Mòduls",
+	"entities_panel_modal_tab_entity_label_name": "Nom",
+	"entities_panel_modal_tab_entity_label_name_placeholder": "Introdueix un nom",
+	"entities_panel_modal_tab_entity_label_phone": "Telèfon",
+	"entities_panel_modal_tab_entity_label_phone_placeholder": "Introdueix un telèfon",
+	"entities_panel_modal_tab_entity_label_news": "Link notícies",
+	"entities_panel_modal_tab_entity_label_news_placeholder": "Introdueix un link de notícies",
+	"entities_panel_modal_tab_entity_label_rss": "Feed RSS",
+	"entities_panel_modal_tab_entity_label_rss_placeholder": "Introdueix un link de feed rss",
+	"entities_panel_modal_tab_entity_label_description": "Descripció",
+	"entities_panel_modal_tab_entity_label_description_placeholder": "Introdueix una descripció",
+
+
+	"users_panel_tableTitle": "Taula d'usuaris",
+	"users_panel_tableDescription": "El següent llistat mostra els usuaris que tenen l'atribut rol-service-panel-usuaris.",
+	"users_panel_tableColumnAction": "Acció",
+	"users_panel_tableColumnId": "Id",
+	"users_panel_tableColumnName": "Nom",
+	"users_panel_tableColumnSurname": "Cognoms",
+	"users_panel_tableColumnDescription": "Descripció",
+	"users_panel_tableColumnEmail": "Email",
+	"users_panel_tableColumnEntities": "Entitats",
+	"users_panel_tableColumnCreated": "Creat",
+	"users_panel_tableColumnUpdated": "Actualitzat",
+	"users_panel_tableColumnStatus": "Estat",
+
+	"users_panel_modal_warning": "Les dades modificades als formularis següents seran emmagatzemades automàticament.",
+	"users_panel_modal_tab_user": "Usuari",
+	"users_panel_modal_tab_entities": "Entitatsdades",
+	"users_panel_modal_tab_modules": "Mòduls",
+	"users_panel_modal_tab_user_title": "Títol",
+	"users_panel_modal_tab_user_label_name": "Nom",
+	"users_panel_modal_tab_user_label_surname": "Cognoms",
+	"users_panel_modal_tab_user_label_email": "Correu electrònic",
+	"users_panel_modal_tab_user_label_status": "Estat",
+	"users_panel_modal_tab_user_label_created": "Creat",
+	"users_panel_modal_tab_user_label_updated": "Actualitzat",
+	"users_panel_modal_tab_user_status_action": "Activar/Desactivar l'usuari",
+
+
+	"users_panel_modalEditUser_button_close": "Tancar"
+}
